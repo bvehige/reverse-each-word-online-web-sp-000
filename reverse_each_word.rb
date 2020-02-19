@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
-  array = sentence.split(//)
-  array.reverse_each do |word|
+  array = sentence.split
+  array.reverse_each_index  do |word|
 end
 end
 
