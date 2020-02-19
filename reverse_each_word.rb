@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   reversed_array.join(" ")
 end
 
-def reverse_each_word(sentence)
+def reverse_each_word_collect(sentence)
   array = sentence.split
   array.collect {|word| word.reverse!}
 end
